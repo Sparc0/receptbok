@@ -1,0 +1,61 @@
+:root {
+    --md-primary-color: #FEE32B;
+    --md-primary-fg-color: #201D18;
+    --md-accent-color: #FEE32B;
+    --md-accent-fg-color: #201D18;
+    --md-default-fg-color: #201D18;
+    --md-default-bg-color: #FDFDF9;
+}
+
+.md-button:hover, .md-link:hover {
+    color: #877928 !important;
+}
+
+.servings-container {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border: 2px solid #201D18;
+    border-radius: 12px;
+    background-color: #FBEF9C;
+    font-family: inherit;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    vertical-align: middle;
+}
+
+.servings-btn {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    color: #201D18;
+    padding: 0 5px;
+    line-height: 1;
+    user-select: none;
+}
+
+.servings-btn:hover {
+    color: #877928;
+    transform: scale(1.1);
+}
+
+.servings-display {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+    min-width: 60px;
+    justify-content: center;
+}
+
+.servings-icon {
+    font-size: 18px;
+}
+
+/* Make task list checkboxes interactive */
+input[type="checkbox"] {
+    cursor: pointer !important;
+    pointer-events: auto !important;
+}
